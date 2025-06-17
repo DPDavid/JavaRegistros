@@ -10,6 +10,7 @@ module com.example.interfaces {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.sql;
 
     opens com.example.interfaces to javafx.fxml;
     exports com.example.interfaces;
